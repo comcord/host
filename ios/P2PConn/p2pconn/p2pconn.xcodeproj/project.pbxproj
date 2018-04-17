@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA080567202FE2D4006966F9 /* p2pconn.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA080566202FE2D4006966F9 /* p2pconn.h */; };
+		AA080569202FE2D4006966F9 /* p2pconn.m in Sources */ = {isa = PBXBuildFile; fileRef = AA080568202FE2D4006966F9 /* p2pconn.m */; };
+		AA080571202FE30C006966F9 /* P2PConn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA08056F202FE30C006966F9 /* P2PConn.cpp */; };
+		AA0805B2203025D0006966F9 /* libgmhelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0805B1203025D0006966F9 /* libgmhelper.a */; };
+		AA0805B4203025F1006966F9 /* libhostagent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0805B3203025F1006966F9 /* libhostagent.a */; };
+		AA0805B72030284E006966F9 /* P2PConn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA08056F202FE30C006966F9 /* P2PConn.cpp */; };
+		AA0805B82030284E006966F9 /* p2pconn.m in Sources */ = {isa = PBXBuildFile; fileRef = AA080568202FE2D4006966F9 /* p2pconn.m */; };
+		AA0805BA2030284E006966F9 /* libhostagent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0805B3203025F1006966F9 /* libhostagent.a */; };
+		AA0805BB2030284E006966F9 /* libgmhelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0805B1203025D0006966F9 /* libgmhelper.a */; };
+		AA0805BD2030284E006966F9 /* p2pconn.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA080566202FE2D4006966F9 /* p2pconn.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA080561202FE2D4006966F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AA080567202FE2D4006966F9 /* p2pconn.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0805BC2030284E006966F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AA0805BD2030284E006966F9 /* p2pconn.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA080563202FE2D4006966F9 /* libp2pconn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libp2pconn.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA080566202FE2D4006966F9 /* p2pconn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p2pconn.h; sourceTree = "<group>"; };
+		AA080568202FE2D4006966F9 /* p2pconn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p2pconn.m; sourceTree = "<group>"; };
+		AA08056F202FE30C006966F9 /* P2PConn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = P2PConn.cpp; path = ../src/P2PConn.cpp; sourceTree = "<group>"; };
+		AA080570202FE30C006966F9 /* P2PConn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P2PConn.h; path = ../src/P2PConn.h; sourceTree = "<group>"; };
+		AA080572202FE321006966F9 /* P2PConnApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P2PConnApi.h; path = ../src/P2PConnApi.h; sourceTree = "<group>"; };
+		AA080573202FE33B006966F9 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../src/stdafx.h; sourceTree = "<group>"; };
+		AA080574202FE33B006966F9 /* targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = targetver.h; path = ../src/targetver.h; sourceTree = "<group>"; };
+		AA080575202FE620006966F9 /* MeetingHostAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeetingHostAgent.h; path = ../src/MeetingHostAgent.h; sourceTree = "<group>"; };
+		AA0805B1203025D0006966F9 /* libgmhelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmhelper.a; path = ../../../dpd/bin/libgmhelper.a; sourceTree = "<group>"; };
+		AA0805B3203025F1006966F9 /* libhostagent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhostagent.a; path = ../../../dpd/bin/libhostagent.a; sourceTree = "<group>"; };
+		AA0805C12030284E006966F9 /* libp2pconn64.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libp2pconn64.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA080560202FE2D4006966F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0805B4203025F1006966F9 /* libhostagent.a in Frameworks */,
+				AA0805B2203025D0006966F9 /* libgmhelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0805B92030284E006966F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0805BA2030284E006966F9 /* libhostagent.a in Frameworks */,
+				AA0805BB2030284E006966F9 /* libgmhelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA08055A202FE2D4006966F9 = {
+			isa = PBXGroup;
+			children = (
+				AA0805B3203025F1006966F9 /* libhostagent.a */,
+				AA0805B1203025D0006966F9 /* libgmhelper.a */,
+				AA080576202FE726006966F9 /* src */,
+				AA080565202FE2D4006966F9 /* p2pconn */,
+				AA080564202FE2D4006966F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA080564202FE2D4006966F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA080563202FE2D4006966F9 /* libp2pconn.a */,
+				AA0805C12030284E006966F9 /* libp2pconn64.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA080565202FE2D4006966F9 /* p2pconn */ = {
+			isa = PBXGroup;
+			children = (
+				AA080566202FE2D4006966F9 /* p2pconn.h */,
+				AA080568202FE2D4006966F9 /* p2pconn.m */,
+			);
+			path = p2pconn;
+			sourceTree = "<group>";
+		};
+		AA080576202FE726006966F9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AA080573202FE33B006966F9 /* stdafx.h */,
+				AA080572202FE321006966F9 /* P2PConnApi.h */,
+				AA080570202FE30C006966F9 /* P2PConn.h */,
+				AA08056F202FE30C006966F9 /* P2PConn.cpp */,
+				AA080574202FE33B006966F9 /* targetver.h */,
+				AA080575202FE620006966F9 /* MeetingHostAgent.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA080562202FE2D4006966F9 /* p2pconn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA08056C202FE2D4006966F9 /* Build configuration list for PBXNativeTarget "p2pconn" */;
+			buildPhases = (
+				AA08055F202FE2D4006966F9 /* Sources */,
+				AA080560202FE2D4006966F9 /* Frameworks */,
+				AA080561202FE2D4006966F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = p2pconn;
+			productName = p2pconn;
+			productReference = AA080563202FE2D4006966F9 /* libp2pconn.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA0805B52030284E006966F9 /* p2pconn64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0805BE2030284E006966F9 /* Build configuration list for PBXNativeTarget "p2pconn64" */;
+			buildPhases = (
+				AA0805B62030284E006966F9 /* Sources */,
+				AA0805B92030284E006966F9 /* Frameworks */,
+				AA0805BC2030284E006966F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = p2pconn64;
+			productName = p2pconn;
+			productReference = AA0805C12030284E006966F9 /* libp2pconn64.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA08055B202FE2D4006966F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = redcdn;
+				TargetAttributes = {
+					AA080562202FE2D4006966F9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = AA08055E202FE2D4006966F9 /* Build configuration list for PBXProject "p2pconn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA08055A202FE2D4006966F9;
+			productRefGroup = AA080564202FE2D4006966F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA080562202FE2D4006966F9 /* p2pconn */,
+				AA0805B52030284E006966F9 /* p2pconn64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA08055F202FE2D4006966F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA080571202FE30C006966F9 /* P2PConn.cpp in Sources */,
+				AA080569202FE2D4006966F9 /* p2pconn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0805B62030284E006966F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0805B72030284E006966F9 /* P2PConn.cpp in Sources */,
+				AA0805B82030284E006966F9 /* p2pconn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA08056A202FE2D4006966F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					__IOS__,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		AA08056B202FE2D4006966F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = __IOS__;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		AA08056D202FE2D4006966F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					__IOS__,
+				);
+				HEADER_SEARCH_PATHS = ../../../dpd/inc/BaseLibrary/GMHelper;
+				LIBRARY_SEARCH_PATHS = /Users/justmeeting/cellPhone_ios/dpd/bin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA08056E202FE2D4006966F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = __IOS__;
+				HEADER_SEARCH_PATHS = ../../../dpd/inc/BaseLibrary/GMHelper;
+				LIBRARY_SEARCH_PATHS = /Users/justmeeting/cellPhone_ios/dpd/bin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA0805BF2030284E006966F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					__IOS__,
+				);
+				HEADER_SEARCH_PATHS = ../../../dpd/inc/BaseLibrary/GMHelper;
+				LIBRARY_SEARCH_PATHS = /Users/justmeeting/cellPhone_ios/dpd/bin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		AA0805C02030284E006966F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = __IOS__;
+				HEADER_SEARCH_PATHS = ../../../dpd/inc/BaseLibrary/GMHelper;
+				LIBRARY_SEARCH_PATHS = /Users/justmeeting/cellPhone_ios/dpd/bin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA08055E202FE2D4006966F9 /* Build configuration list for PBXProject "p2pconn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA08056A202FE2D4006966F9 /* Debug */,
+				AA08056B202FE2D4006966F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA08056C202FE2D4006966F9 /* Build configuration list for PBXNativeTarget "p2pconn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA08056D202FE2D4006966F9 /* Debug */,
+				AA08056E202FE2D4006966F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA0805BE2030284E006966F9 /* Build configuration list for PBXNativeTarget "p2pconn64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0805BF2030284E006966F9 /* Debug */,
+				AA0805C02030284E006966F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA08055B202FE2D4006966F9 /* Project object */;
+}

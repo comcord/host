@@ -1,0 +1,22 @@
+﻿Build started 2018/2/9 18:37:27.
+     1>Project "C:\cuidx\MeetingHost\MeetingHostAgent\P2PConn\P2PConn.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\P2PConn.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../export /I..\..\dpd\inc\BaseLibrary\GMHelper /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\P2PConn.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt P2PConn.cpp
+         P2PConn.cpp
+     1>P2PConn.cpp(426): warning C4018: '<' : signed/unsigned mismatch
+     1>P2PConn.cpp(450): warning C4018: '<' : signed/unsigned mismatch
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\cuidx\MeetingHost\MeetingHostAgent\Release\P2PConn.lib" /LIBPATH:..\..\dpd\bin\w32r /NOLOGO /LTCG Release\P2PConn.obj
+         Release\stdafx.obj
+         P2PConn.vcxproj -> C:\cuidx\MeetingHost\MeetingHostAgent\Release\P2PConn.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\P2PConn.unsuccessfulbuild".
+         Touching "Release\P2PConn.lastbuildstate".
+     1>Done Building Project "C:\cuidx\MeetingHost\MeetingHostAgent\P2PConn\P2PConn.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.63
